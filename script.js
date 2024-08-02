@@ -11,7 +11,7 @@ function updatetime(){
     hours.innerHTML=hour<10?"0"+hour:hour;
     minutes.innerHTML=min<10?"0"+min:min;
     seconds.innerHTML=sec<10?"0"+sec:sec;
-    if(day==9 && hour==12 && min==37){
+    if(day==0 && hour==0 && min==0){
         placeh.innerHTML="HAPPY BIRTHDAY THANGO";
     }
     }
